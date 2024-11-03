@@ -150,8 +150,8 @@ export async function generate_proof(inputString) {
     // Generate the proof
     const { proof, publicSignals } = await snarkjs.groth16.fullProve(
         { in: inputArray, hash: hash },
-        "./zkp/build/poseidon_hasher_js/poseidon_hasher.wasm",
-        "./zkp/circuit_0000.zkey");
+        "poseidon_hasher.wasm",
+        "circuit_0000.zkey");
 
     //const generateCall = await snarkjs.generateCall(publicSignals, proof);
     //console.log("generateCall: ", generateCall);
