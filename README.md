@@ -58,11 +58,3 @@ The original presentation (in French) is available as a PDF:
 
 ## 📖 Learning Ressources
 [Circom documentation](https://docs.circom.io/getting-started/installation/)
-
----
-
-## 📄 License
-
-This project is released under the [MIT License](LICENSE).
-
----
